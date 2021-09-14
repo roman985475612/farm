@@ -1,0 +1,15 @@
+{
+    "name": "home/farm",
+    "autoload": {
+        "psr-4": {
+            "Home\\Farm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman",
+            "email": "roman985475612@gmail.com"
+        }
+    ],
+    "require": {}
+}
