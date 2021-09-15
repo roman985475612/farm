@@ -1,8 +1,8 @@
 {
-    "name": "home/farm",
+    "name": "my/farm",
     "autoload": {
         "psr-4": {
-            "Home\\Farm\\": "src/"
+            "My\\Farm\\": "src/"
         }
     },
     "authors": [
