@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace My\Farm;
+namespace My\Farm\Products;
 
 interface ProductInterface
 {

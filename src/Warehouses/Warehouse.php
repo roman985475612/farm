@@ -1,6 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace My\Farm;
+namespace My\Farm\Warehouses;
+
+use My\Farm\Products\ProductInterface;
 
 class Warehouse implements WarehouseInterface
 {

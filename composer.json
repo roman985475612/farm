@@ -2,7 +2,11 @@
     "name": "my/farm",
     "autoload": {
         "psr-4": {
-            "My\\Farm\\": "src/"
+            "My\\Farm\\": "src/",
+            "My\\Farm\\Animals\\": "src/Animals/",
+            "My\\Farm\\Cawsheds\\": "src/Cawsheds/",
+            "My\\Farm\\Products\\": "src/Products/",
+            "My\\Farm\\Warehouses\\": "src/Warehouses/"
         }
     },
     "authors": [
@@ -11,5 +15,17 @@
             "email": "roman985475612@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0",
+        "ext-fileinfo": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
 }

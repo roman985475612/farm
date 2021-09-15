@@ -1,9 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace My\Farm;
+namespace My\Farm\Cawsheds;
 
 use Countable;
 use Exception;
+use My\Farm\Animals\AnimalInterface;
+use My\Farm\Warehouses\WarehouseInterface;
 
 class Cawshed implements Countable, CawshedInterface
 {

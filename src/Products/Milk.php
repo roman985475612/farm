@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace My\Farm;
+namespace My\Farm\Products;
 
-class Eggs extends AbstractProduct
+class Milk extends AbstractProduct
 {
     public static function getName(): string
     {
-        return 'яйца';
+        return 'молоко';
     }
 
     public static function getUnit(): string
     {
-        return 'шт.';
+        return 'л.';
     }
 }

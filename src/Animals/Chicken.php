@@ -1,6 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace My\Farm;
+namespace My\Farm\Animals;
+
+use My\Farm\Products\Eggs;
+use My\Farm\Products\ProductInterface;
 
 class Chicken extends AbstractAnimal
 {

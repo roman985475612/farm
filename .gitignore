@@ -3,3 +3,5 @@
 /nbproject/private/
 /.vscode
 /.idea
+phpunit.xml
+.phpunit.result.cache
